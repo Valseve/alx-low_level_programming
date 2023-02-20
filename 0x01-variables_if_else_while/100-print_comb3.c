@@ -9,23 +9,17 @@ int main(void)
 	int i;
 	int a;
 
-	i = 0;
-	a = 1;
-	while
-		(i < 10)
+	for (i = 0; i < 10, i++)
 		{
-			putchar(i + '0');
-			i++;
-			while (a < 10)
-			{
-				if (i > a)
-				{
-					putchar(a + '0');
-					a++;
-					putchar(',');
-					putchar(' ');
-				}
-			}
+		for (a = i + 1; a < 10; a++)
+		{
+			putchar(i);
+			putchar(a);
+			if (i == 8 && a == 9)
+				continue;
+			putchar(',');
+			putchar(' ');
+		}
 		}
 	putchar('\n');
 	return (0);
