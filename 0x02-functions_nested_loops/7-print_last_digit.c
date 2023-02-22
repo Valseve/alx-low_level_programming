@@ -8,12 +8,12 @@
  */
 int print_last_digit(int i)
 {
+	int j;
+
+	j = i % 10;
 	if (i <= 0 && i > 0)
 	{
-		int j;
-
-		j = i % 10;
 		return (j);
 	}
-	return (i % 10);
+	return (j);
 }
