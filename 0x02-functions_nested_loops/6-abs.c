@@ -3,17 +3,21 @@
 /**
  * _abs - Entry point
  *
- * @i: The integer to check
+ * @int: The integer to check
  * Return: the absolute value of int
  */
-int _abs(int i)
+int _abs(int)
 {
-	if (i <= 0)
+	int i, j;
+
+	i = 0;
+	j = 1
+	while (i <= '0')
 	{
 		return (i);
-	}
-	else
-	{
-		return (i);
+		while (j = i * -1)
+		{
+			return (j);
+		}
 	}
 }
