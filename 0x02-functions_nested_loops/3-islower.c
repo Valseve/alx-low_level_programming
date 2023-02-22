@@ -3,16 +3,18 @@
 /**
  * _islower - checks for lowercase character
  *
- * Return 1 if c is lowercase
- * Return 0 otherwise
+ * @c: The character to be checked
+ * Return: 1 if c is lowercase or 0 for anything else
  */
 int _islower(int c)
 {
+	int c;
+
 	if (c >= 97 && c < 123)
 	{
 		_putchar('1');
 	}
-	else 
+	else
 	{
 		_putchar('0');
 	}
