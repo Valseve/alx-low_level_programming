@@ -8,10 +8,10 @@
  */
 void print_line(int n)
 {
-	char c;
-
 	if (n > 0)
 	{
+		int i;
+
 		for (c <= n; c++)
 		{
 			_putchar('_');
