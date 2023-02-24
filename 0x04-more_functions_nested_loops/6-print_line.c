@@ -10,9 +10,9 @@ void print_line(int n)
 {
 	if (n > 0)
 	{
-		int i;
+		int c;
 
-		for (c <= n; c++)
+		for (c = 1; c <= n ; c++)
 		{
 			_putchar('_');
 		}
@@ -20,6 +20,6 @@ void print_line(int n)
 	}
 	else
 	{
-		putchar('\n')
+		_putchar('\n');
 	}
 }
