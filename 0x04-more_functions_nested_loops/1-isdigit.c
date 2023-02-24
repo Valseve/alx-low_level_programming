@@ -11,14 +11,10 @@ int _isdigit(int c)
 {
 	if (c > 48 && c < 58)
 	{
-		_putchar(c':');
-		_putchar(c' ');
 		return (1);
 	}
 	else
 	{
-		_putchar(c':');
-		_putchar(c' ');
 		return (0);
 	}
 }
