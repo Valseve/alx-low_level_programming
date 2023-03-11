@@ -2,8 +2,13 @@
 #include <stdio.h>
 
 /**
+ * main - program that prints all arguments it receives
+ *
+ * @argc: argument counter
+ * @argv: arguments
+ * Return: int
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
@@ -11,5 +16,5 @@ int main (int argc, char *argv[])
 	{
 		printf("%s\n", argv[i]);
 	}
-	return(0);
+	return (0);
 }
